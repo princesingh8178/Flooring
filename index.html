@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floor Designer Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Add Poppins Font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Apply Poppins font to the entire body */
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <!-- HOME-SECTION -->
+    <section class="relative bg-cover bg-center h-[500px] flex items-center justify-center overflow-hidden border-4 border-dashed border-gray-500" style="background-image: url('images/floor.jpg');">
+        <div class="absolute inset-0 flex justify-center items-center bg-black bg-opacity-40">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white text-center px-4 drop-shadow-md italic">
+                Elevate Your Space with Stunning Flooring Solutions
+            </h1>
+        </div>
+    </section>
+    <hr>
+
+    <!-- ABOUT-SECTION -->
+    <section class="py-16 bg-gray-50 mt-10">
+        <div class="max-w-screen-lg mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">
+                <div class="md:w-1/2">
+                    <img src="images/about.jpg" alt="Interior Design" class="w-full h-auto rounded-lg shadow-xl transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
+                </div>
+                <div class="md:w-1/2 text-gray-700">
+                    <h2 class="text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-8 uppercase">About Us</h2>
+                    <p class="text-lg leading-relaxed mb-6">
+                        At our interior design firm, we specialize in transforming spaces to reflect the unique vision and needs of our clients. Our expert team of designers is passionate about creating beautiful and functional environments, whether it’s for a residential, commercial, or hospitality project. With an eye for detail, we ensure every project reflects the perfect blend of style and comfort.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        We believe that good design has the power to enhance lives and foster creativity, and we are committed to delivering exceptional results that exceed expectations. With years of experience and a portfolio of diverse projects, we bring expertise, creativity, and passion to every project we undertake.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <hr>
+    
+    <!-- SERVICES -->
+    <section class="bg-gray-50 py-16">
+        <div class="container mx-auto max-w-7xl text-center">
+            <h2 class="text-5xl font-extrabold text-gray-900 mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+              <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-110">
+                    <div class="overflow-hidden rounded-lg mb-6">
+                        <img src="images/floor1.jpg" alt="Interior Design" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Epoxy Flooring</h3>
+                    <p class="text-gray-600 text-base">
+                        It is versatile,duration,and atttractive solution.
+                    </p>
+                </div>
+        
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <div class="overflow-hidden rounded-lg mb-6">
+                    <img src="images/floor2.jpg" alt="Space Planning" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                </div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-4">Epoxy Coating</h3>
+                <p class="text-gray-600 text-base">
+                    IT is durable,protective substance.
+                </p>
+                </div>
+        
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <div class="overflow-hidden rounded-lg mb-6">
+                    <img src="images/floor3.jpg" alt="Renovations" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                </div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-4">EPU(Hybrid Flooring)</h3>
+                <p class="text-gray-600 text-base">
+                    It is a mix of two popular types of flooring
+                </p>
+                </div>
+        
+                <!-- Add remaining services as in your original code -->
+                <!-- Service 4 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div class="overflow-hidden rounded-lg mb-6">
+                        <img src="images/fl1.jpg" alt="Renovations" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">ESD Coating</h3>
+                    <p class="text-gray-600 text-base">
+                        Is a special type of powder coating formulated.
+                    </p>
+                </div>
+        
+               <!-- Service 5 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div class="overflow-hidden rounded-lg mb-6">
+                        <img src="images/floor1.jpg" alt="Renovations" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Sports Epoxy Flooring</h3>
+                    <p class="text-gray-600 text-base">
+                        It should be fire retardant and smoke resistant.
+                    </p>
+                </div>
+        
+                <!-- Service 6 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div class="overflow-hidden rounded-lg mb-6">
+                        <img src="images/floor3.jpg" alt="Renovations" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Matte Finish Epoxy</h3>
+                    <p class="text-gray-600 text-base">
+                        It provides services to meet the detailed necessites of client.
+                    </p>
+                </div>
+            
+                <!-- Service 7 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div class="overflow-hidden rounded-lg mb-6">
+                        <img src="images/floor.jpg" alt="Renovations" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">3D Epoxy Flooring</h3>
+                    <p class="text-gray-600 text-base">
+                        laying down a layer of self-leveling primer followed by desired image
+                    </p>
+                </div>
+            
+                <!-- Service 8 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div class="overflow-hidden rounded-lg mb-6">
+                        <img src="images/floor3.jpg" alt="Renovations" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Anti Skid Epoxy</h3>
+                    <p class="text-gray-600 text-base">
+                        It offer a satin finish and anti-slip surface
+                    </p>
+                </div>
+            
+                <!-- Service 9 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div class="overflow-hidden rounded-lg mb-6">
+                        <img src="images/floor1.jpg" alt="Renovations" class="w-full h-56 object-cover rounded-lg transition-transform transform hover:scale-110">
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Matellic epoxy</h3>
+                    <p class="text-gray-600 text-base">
+                        It is the epoxy contains metallic pigments
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality -->
+    <section class="text-center py-12 bg-white">
+        <h2 class="text-4xl md:text-4xl font-bold mb-6">
+            Boost Workplace Safety by 70% with Durable Industrial Flooring
+        </h2>
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 pt-10">
+            <!-- Extreme Durability -->
+            <div class="p-6 border rounded-lg shadow-md text-center">
+                <div class="text-yellow-400 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 1.656-.672 3.157-1.758 4.243C9.157 16.328 7.656 17 6 17s-3.157-.672-4.243-1.758A6.006 6.006 0 010 11c0-1.656.672-3.157 1.758-4.243C2.843 5.672 4.344 5 6 5s3.157.672 4.243 1.758A6.006 6.006 0 0112 11z" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold">Exceptional Durability</h3>
+                <p class="text-gray-600 mt-2">Built to endure heavy loads and high traffic for long-lasting performance.</p>
+            </div>
+            <!-- Chemical Resistance -->
+            <div class="p-6 border rounded-lg shadow-md text-center">
+                <div class="text-yellow-500 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h3m0 0h3m-3-3v6m0-6c2.21 0 4 1.79 4 4v6c0 2.21-1.79 4-4 4s-4-1.79-4-4v-6c0-2.21 1.79-4 4-4z" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold">Chemical Resistance</h3>
+                <p class="text-gray-600 mt-2">Designed to resist corrosion and protect against spills and harsh chemicals.</p>
+            </div>
+            <!-- Low Maintenance -->
+            <div class="p-6 border rounded-lg shadow-md text-center">
+                <div class="text-yellow-500 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20h4a1 1 0 001-1v-2a1 1 0 00-1-1h-4a1 1 0 00-1 1v2a1 1 0 001 1zm5-4v1H9v-1a3 3 0 016 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold">Minimal Maintenance</h3>
+                <p class="text-gray-600 mt-2">Effortless cleaning and upkeep save valuable time and resources.</p>
+            </div>
+            <!-- Aesthetic Appeal -->
+            <div class="p-6 border rounded-lg shadow-md text-center">
+                <div class="text-yellow-400 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 17v2a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 00-1-1H4a1 1 0 00-1 1zm14-4h3m-3 0h-2m2-2v4m-3-8h3m3 0h-3M4 5h3M7 5H4m5 3h3m-3 0H4M4 12h3m0 0H4m7 0h3m-3 0H4" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold">Visually Appealing</h3>
+                <p class="text-gray-600 mt-2">Elevate your space with customizable colors and eye-catching designs.</p>
+            </div>
+        </div>
+        <div class="mt-8">
+            <button class="px-6 py-3 bg-yellow-400 text-white font-bold rounded-lg shadow-lg hover:bg-yellow-500 transition duration-300">
+                Get Your Personalized Flooring Quote
+            </button>
+        </div>
+    </section>
+  
+    <!-- Why Choose Us -->
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+            <!-- Image Section -->
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="images/floor2.jpg" alt="Why Choose Us" class="rounded-lg shadow-lg mx-auto">
+            </div>
+            <!-- Text Section -->
+            <div class="md:w-1/2 px-6">
+                <h2 class="text-4xl font-extrabold uppercase mb-6 text-gray-800">Why Choose Us</h2>
+                <ul class="space-y-4">
+                    <!-- Point 1 -->
+                    <li class="flex items-start">
+                        <div class="text-yellow-400 w-10 h-10 flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4m5 2a9 9 0 11-6.93-3.36" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold text-gray-700">Unmatched Quality</h3>
+                            <p class="text-gray-600">We deliver premium flooring solutions that exceed expectations.</p>
+                        </div>
+                    </li>
+                    <!-- Point 2 -->
+                    <li class="flex items-start">
+                        <div class="text-yellow-400 w-10 h-10 flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 .895 3 2s-1.343 2-3 2-3-.895-3-2 .895-2 3-2zM2.458 12C3.732 15.45 7.01 18 12 18s8.268-2.55 9.542-6c-.597-1.5-1.12-3.217-1.542-5C18.268 3.55 14.99 1 10 1s-7.268 2.55-8.542 6c-.422 1.783-.945 3.5-1.542 5z" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold text-gray-700">Customer-Centric Approach</h3>
+                            <p class="text-gray-600">We prioritize your needs, ensuring seamless and hassle-free services.</p>
+                        </div>
+                    </li>
+                    <!-- Point 3 -->
+                    <li class="flex items-start">
+                        <div class="text-yellow-400 w-10 h-10 flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a10 10 0 110 20a10 10 0 010-20zm0 5a2 2 0 100 4a2 2 0 000-4zm0 6a4 4 0 00-4 4h8a4 4 0 00-4-4z" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold text-gray-700">Expert Team</h3>
+                            <p class="text-gray-600">Our skilled professionals ensure top-notch craftsmanship.</p>
+                        </div>
+                    </li>
+                    <!-- Point 4 -->
+                    <li class="flex items-start">
+                        <div class="text-yellow-400 w-10 h-10 flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-8a9 9 0 110 18a9 9 0 010-18z" />
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold text-gray-700">Timely Delivery</h3>
+                            <p class="text-gray-600">We value your time, delivering results within the promised timeframe.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR CLIENTS -->
+<section class="py-12 bg-gray-50 mt-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Title -->
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 uppercase">Our Clients</h2>
+        </div>
+
+        <!-- Client Logos -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 justify-items-center">
+            <!-- Logo 1 -->
+            <div class="flex items-center justify-center max-w-[200px]">
+                <img src="images/rail.webp" alt="Client 1 Logo" class="h-20 object-contain">
+            </div>
+            <!-- Logo 2 -->
+            <div class="flex items-center justify-center max-w-[150px]">
+                <img src="images/Havells-Logo.wine.svg" alt="Client 2 Logo" class="h-20 object-contain">
+            </div>
+            <!-- Logo 3 -->
+            <div class="flex items-center justify-center max-w-[150px]">
+                <img src="images/7c1c60e9afaaaa3cce61e5101717796d21b7f914-1426x1080.svg" alt="Client 3 Logo" class="h-20 object-contain">
+            </div>
+            <!-- Logo 4 -->
+            <div class="flex items-center justify-center max-w-[150px]">
+                <img src="images/attachment_66603361.png" alt="Client 4 Logo" class="h-20 object-contain">
+            </div>
+            <!-- Logo 5 -->
+            <div class="flex items-center justify-center max-w-[250px]">
+                <img src="images/cal.png" alt="Client 5 Logo" class="h-20 object-contain">
+            </div>
+            <!-- Logo 6 -->
+            <div class="flex items-center justify-center max-w-[250px]">
+                <img src="images/alex.jpg" alt="Client 6 Logo" class="h-20 object-contain">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACT_US -->
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- Heading -->
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-bold text-gray-800 uppercase">Contact Us</h2>
+                <p class="text-gray-600 mt-4">We'd love to hear from you! Fill out the form below to get in touch.</p>
+            </div>
+            <!-- Contact Form -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Contact Information -->
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-semibold text-gray-800">Get in Touch</h3>
+                    <p class="text-gray-600 mt-4">
+                        Have questions or need assistance? Feel free to reach out to us via the form or at:
+                    </p>
+                    <div class="mt-6">
+                        <p class="flex items-center text-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7-5m0 0l7 5m-7-5v13m7-8v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8m16-2v8" />
+                            </svg>
+                            123 Main Street, Anytown, USA
+                        </p>
+                        <p class="flex items-center text-gray-700 mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12h4m0 0v8m0-8H4m16 0a8 8 0 11-16 0 8 8 0 0116 0z" />
+                            </svg>
+                            support@example.com
+                        </p>
+                        <p class="flex items-center text-gray-700 mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h2m4 0h4m4 0h2m-9 8h1m-1-8h.01M4 6a1 1 0 011-1h14a1 1 0 011 1v6a1 1 0 01-1 1h-4l-4 4-4-4H5a1 1 0 01-1-1V6z" />
+                            </svg>
+                            +1 (123) 456-7890
+                        </p>
+                    </div>
+                </div>
+                <!-- Form -->
+                <div>
+                    <form action="#" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+                        <!-- Name and Email in Row -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                            <!-- Name -->
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name"
+                                    class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-red-600">
+                            </div>
+                            <!-- Email -->
+                            <div>
+                                <label for="email" class="block text-gray-700 font-medium">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email"
+                                    class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-red-600">
+                            </div>
+                        </div>
+                        <!-- Company Name and Website in Row -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                            <!-- Company Name -->
+                            <div>
+                                <label for="company" class="block text-gray-700 font-medium">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Your Company Name"
+                                    class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-red-600">
+                            </div>
+                            <!-- Company Website -->
+                            <div>
+                                <label for="website" class="block text-gray-700 font-medium">Company Website</label>
+                                <input type="url" id="website" name="website" placeholder="https://yourcompany.com"
+                                    class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-red-600">
+                            </div>
+                        </div>
+                        <!-- Budget and Type of Services in Row -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                            <!-- Budget -->
+                            <div>
+                                <label for="budget" class="block text-gray-700 font-medium">Budget</label>
+                                <input type="number" id="budget" name="budget" placeholder="Your Budget (e.g., 15lakh)"
+                                    class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-red-600">
+                            </div>
+                            <!-- Type of Services -->
+                            <div>
+                                <label for="services" class="block text-gray-700 font-medium">Type of Services</label>
+                                <select id="services" name="services"
+                                    class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-red-600">
+                                    <option value="" disabled selected>Select a Service</option>
+                                    <option value="web-design">Concrete Foundations</option>
+                                    <option value="interior-design">Structural Engineering</option>
+                                    <option value="branding">Building Renovations</option>
+                                    <option value="marketing">Project Management</option>
+                                    <option value="web-design">Landscaping</option>
+                                    <option value="interior-design">Roofing</option>
+                                    <option value="branding">Plumbing</option>
+                                    <option value="marketing">Electrical Services</option>
+                                    <option value="marketing">Concrete Finishing</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Message -->
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 font-medium">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-red-600"></textarea>
+                        </div>
+                        <!-- Submit Button -->
+                        <button type="submit"
+                            class="w-full bg-yellow-400 text-white font-bold py-3 rounded-lg shadow-lg hover:bg-yellow-500 transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
